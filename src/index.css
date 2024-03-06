@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Shadows Into Light Two', cursive;
+
+  background-color: whitesmoke;
+}
+
+
+
+
+.navbar-top {
+  display: flex;
+
+  padding: 25px 50px;
+  border-bottom: 5px solid lightskyblue;
+}
+
+.navbar-top-logo {
+  width: 100px;
+  height: 100px;
+
+  margin-right: 50px;
+}
+
+.navbar-top-title {
+  color: pink;
+  text-shadow: 0px 0px 2px black;
+
+  font-size: 40px;
+}
+
+
+
+
+.main-content {
+  margin-left: 50px;
+}
+
+.main-img {
+  width: 500px;
+
+  display: block;
+  margin: 100px auto 50px auto;
+}
+
+
+
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 250px;
+  background-color: pink;
+
+  border: 2px solid black;
+  border-radius: 15px;
+
+  padding: 10px 20px;
+  margin: 100px 25px;
+
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.card-img {
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.card-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.card-description {
+  font-size: 18px;
+}
+
+.card-badge {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: rgb(43, 184, 240);
+  padding: 5px 8px;
+  border-radius: 3px;
+  font-weight: bold;
+}
